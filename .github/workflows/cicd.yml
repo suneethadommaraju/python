@@ -34,4 +34,4 @@ jobs:
           sleep 9
           cd /home/ubuntu/python && sudo docker build -t demo . --no-cache 
           sleep 15
-          sudo docker run -d --name demo -p 8090:8080 demo
+          sudo docker run -d --name demo -p 8080:8080 demo
